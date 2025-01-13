@@ -1,3 +1,3 @@
 # Home
 
-Source code for [higgsbi.com](higgsbi.com)
+Source code for [higgsbi.com](https://higgsbi.com)
