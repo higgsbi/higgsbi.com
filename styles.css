@@ -1,0 +1,42 @@
+body {
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    background-color: #050F0CE3;
+    font-family: 'Helvetica';
+}
+
+.container {
+    width: 90%;
+    padding-top: 40px;
+}
+
+.nav {
+    font-size: x-large;
+    font-style: bold;
+    display: flex;
+    gap: 10px;
+}
+
+.content {
+    font-size: large;
+    padding-top: 20px;
+}
+
+a {
+    color: #0B9A6D;
+    text-decoration: none;
+    border-bottom: 1px dotted #0B9A6D;
+}
+
+li {
+    padding-bottom: 9px;
+}
+
+@media (min-width: 1000px) { 
+    .container {
+        width: 50%;
+    }
+}
