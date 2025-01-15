@@ -23,6 +23,11 @@ body {
 .content {
     font-size: medium;
     padding-top: 20px;
+    color: #e4fcd1;
+}
+
+h1, h2 {
+    color: #aa502f;
 }
 
 a {
