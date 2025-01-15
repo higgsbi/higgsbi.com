@@ -14,14 +14,14 @@ body {
 }
 
 .nav {
-    font-size: x-large;
+    font-size: large;
     font-style: bold;
     display: flex;
     gap: 10px;
 }
 
 .content {
-    font-size: large;
+    font-size: medium;
     padding-top: 20px;
 }
 
