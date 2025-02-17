@@ -26,8 +26,23 @@ body {
     color: #e4fcd1;
 }
 
+.split {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.pane {
+    margin: 0 auto 0 0;
+}
+
 h1, h2 {
     color: #aa502f;
+}
+
+h3, h4 {
+    color: #d07655
 }
 
 a {
