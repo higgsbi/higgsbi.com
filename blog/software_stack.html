@@ -17,70 +17,68 @@
             <a href="../me.html">me</a>
             <a href="../blog.html">blog</a>
         </div>
-        <div class="content">
-            <h1>Software Stack</h1>
+        <h1>Software Stack</h1>
+        <p>
+        I use a lot of software. I try to keep it all as lightweight as possible.
+        Some of I made. Some of it other wonderful people made. Here's some of it:
+        </p>
+        <h2>Environment</h2>
+        <p>
+            <ul>
+                <li>Operating System: <a href=https://fedoraproject.org/>fedora linux</a></li>
+                <li>Window Manager: <a href=https://swaywm.org/>sway</a></li>
+                <li>Terminal: <a href=https://codeberg.org/dnkl/foot/>foot</a></li>
+                <li>Image Viewer: <a href=https://github.com/derf/feh>feh</a></li>
+                <li>Clipboard: <a href=https://github.com/bugaevc/wl-clipboard>wl-clipboard</a></li>
+                <li>Launcher: <a href=https://github.com/philj56/tofi>tofi</a></li>
+                <li>Files: <a href=https://github.com/jarun/nnn/>nnn</a></li>
+                <li>Audio Backend: <a href=https://gitlab.freedesktop.org/pulseaudio/pavucontrol>pavucontrols</a></li>
+                <li>Brightness/Audio Controls: <a href=https://github.com/higgsbi/simplecontrols>simplecontrols</a></li>
+                <li>Notifications: <a href=https://github.com/dunst-project/dunst/>dunst</a></li>
+                <li>Networking: <a href=https://docs.rockylinux.org/gemstones/network/nmtui/>nmtui</a></li>
+            </ul>
+            My system runs from sway to foot to tmux. Everything is launched into its own full screen workspace, or handled right in a 
+            tmux panel. Because of this, most everything is a cli tool (more often than not, my own), 
+            with the exception of some of my "fun apps" which are usually better suited to a large graphical program.
             <p>
-            I use a lot of software. I try to keep it all as lightweight as possible.
-            Some of I made. Some of it other wonderful people made. Here's some of it:
+            <img src="assets/software_stack_1.png" width="100%">
             </p>
-            <h2>Environment</h2>
-            <p>
-                <ul>
-                    <li>Operating System: <a href=https://fedoraproject.org/>fedora linux</a></li>
-                    <li>Window Manager: <a href=https://swaywm.org/>sway</a></li>
-                    <li>Terminal: <a href=https://codeberg.org/dnkl/foot/>foot</a></li>
-                    <li>Image Viewer: <a href=https://github.com/derf/feh>feh</a></li>
-                    <li>Clipboard: <a href=https://github.com/bugaevc/wl-clipboard>wl-clipboard</a></li>
-                    <li>Launcher: <a href=https://github.com/philj56/tofi>tofi</a></li>
-                    <li>Files: <a href=https://github.com/jarun/nnn/>nnn</a></li>
-                    <li>Audio Backend: <a href=https://gitlab.freedesktop.org/pulseaudio/pavucontrol>pavucontrols</a></li>
-                    <li>Brightness/Audio Controls: <a href=https://github.com/higgsbi/simplecontrols>simplecontrols</a></li>
-                    <li>Notifications: <a href=https://github.com/dunst-project/dunst/>dunst</a></li>
-                    <li>Networking: <a href=https://docs.rockylinux.org/gemstones/network/nmtui/>nmtui</a></li>
-                </ul>
-                My system runs from sway to foot to tmux. Everything is launched into its own full screen workspace, or handled right in a 
-                tmux panel. Because of this, most everything is a cli tool (more often than not, my own), 
-                with the exception of some of my "fun apps" which are usually better suited to a large graphical program.
-                <p>
-                <img src="assets/software_stack_1.png" width="100%">
-                </p>
-            </p>
-            <h2>Fun Things</h2>
-            <p>
-                <ul>
-                    <li>Browser: <a href=https://www.mozilla.org/en-US/firefox/>firefox</a></li>
-                    <li>YouTube Videos With Family: <a href=https://github.com/FreeTubeApp/FreeTube/>freetube</a></li>
-                    <li>Personal YouTube Videos: <a href=https://github.com/Benexl/yt-x>yt-x</a></li>
-                    <li>Archived Videos: <a href=https://github.com/mpv-player/mpv>mpv</a></li>
-                </ul>
-                I try to keep off of social media entirely, but I do like to keep up to date with some Linux projects on Reddit so I use 
-                <a href=https://gitlab.com/aaronNG/reddio>reddio</a> to avoid actually opening up Reddit online.
-            </p>
-            <p>
-            Ideally, I would use MPV for everything, but FreeTube is unreasonably convenient if anyone else is using my device, so electron is tolerated.<br> ¯\_( ツ)_/¯
-            </p>            
-            <h2>Programming</h2>
-            <p>
-                <ul>
-                    <li>Editor: <a href=https://github.com/helix-editor/helix/>helix</a></li>
-                    <li>Multiplexer: <a href=https://github.com/tmux/tmux>tmux</a></li>
-                    <li>Languages: rust, c, html, and css</li>
-                    <li>Shell: dash for scripts, bash for interactive environment</li>
-                </ul>
-                My programming philsophy is always to keep it as efficient as possible. I've spent hundreds of hours in the higher of higher end languages
-                such as Java, Kotlin, PHP, JS, and Swift, but for my personal projects, Rust, C, POSIX shell, HTML, and CSS are all that is necessary.
-            </p>
-            <p>
-                The primary thought process in software/language choice is to opt for something that can run on a computer from 1990, but with the power of
-                my modern hardware. I understand developer time is a consideration, but it seems odd to wrap everything in Electron and write in JS with 40
-                libraries when languages like Rust allow for efficiency with the all the bells and whistles.
-            </p>
-            <p>
-            Helix is a fantastic little program. It is faster than both neovim and vim, and features every plugin I might want integrated
-            automatically without any plugin loading system. If vim could keep up in speed, I would gladly bring it back, but it is currently not able
-            to handle large files as well as Helix.
-            </p>
-        </div>
+        </p>
+        <h2>Fun Things</h2>
+        <p>
+            <ul>
+                <li>Browser: <a href=https://www.mozilla.org/en-US/firefox/>firefox</a></li>
+                <li>YouTube Videos With Family: <a href=https://github.com/FreeTubeApp/FreeTube/>freetube</a></li>
+                <li>Personal YouTube Videos: <a href=https://github.com/Benexl/yt-x>yt-x</a></li>
+                <li>Archived Videos: <a href=https://github.com/mpv-player/mpv>mpv</a></li>
+            </ul>
+            I try to keep off of social media entirely, but I do like to keep up to date with some Linux projects on Reddit so I use 
+            <a href=https://gitlab.com/aaronNG/reddio>reddio</a> to avoid actually opening up Reddit online.
+        </p>
+        <p>
+        Ideally, I would use MPV for everything, but FreeTube is unreasonably convenient if anyone else is using my device, so electron is tolerated.<br> ¯\_( ツ)_/¯
+        </p>            
+        <h2>Programming</h2>
+        <p>
+            <ul>
+                <li>Editor: <a href=https://github.com/helix-editor/helix/>helix</a></li>
+                <li>Multiplexer: <a href=https://github.com/tmux/tmux>tmux</a></li>
+                <li>Languages: rust, c, html, and css</li>
+                <li>Shell: dash for scripts, bash for interactive environment</li>
+            </ul>
+            My programming philsophy is always to keep it as efficient as possible. I've spent hundreds of hours in the higher of higher end languages
+            such as Java, Kotlin, PHP, JS, and Swift, but for my personal projects, Rust, C, POSIX shell, HTML, and CSS are all that is necessary.
+        </p>
+        <p>
+            The primary thought process in software/language choice is to opt for something that can run on a computer from 1990, but with the power of
+            my modern hardware. I understand developer time is a consideration, but it seems odd to wrap everything in Electron and write in JS with 40
+            libraries when languages like Rust allow for efficiency with the all the bells and whistles.
+        </p>
+        <p>
+        Helix is a fantastic little program. It is faster than both neovim and vim, and features every plugin I might want integrated
+        automatically without any plugin loading system. If vim could keep up in speed, I would gladly bring it back, but it is currently not able
+        to handle large files as well as Helix.
+        </p>
     </div>
 </body>
 </html>
